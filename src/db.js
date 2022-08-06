@@ -6,7 +6,7 @@ const path = require('path');
    DB_USER, DB_PASSWORD, DB_HOST,
  } = process.env;
 //`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/countries`
-const sequelize = new Sequelize(`postgresql://utt4bcazkjakccued5wi:3HJCtyD1EAOXKZem4l3J@bjj0ri9ssqoriq08r3sd-postgresql.services.clever-cloud.com:5432/countries`, {
+const sequelize = new Sequelize(`postgresql://utt4bcazkjakccued5wi:3HJCtyD1EAOXKZem4l3J@bjj0ri9ssqoriq08r3sd-postgresql.services.clever-cloud.com:5432/bjj0ri9ssqoriq08r3sd`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 });
