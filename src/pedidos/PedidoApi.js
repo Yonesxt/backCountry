@@ -23,7 +23,6 @@ const getAll =  async function () {
 const getAllDB =  async function (req, res, next) {
   //   return res.send("funciona si");
     // pedido a la api
-    await getAll()
     try {
        if (Object.values(req.query)[0]) {
       //   // si hay query hay que filtrar
